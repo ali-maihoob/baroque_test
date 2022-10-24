@@ -1,0 +1,148 @@
+@import "src/styles/brakpoints";
+.yacht {
+  padding: 1.2rem 1.8rem;
+  &__image {
+    position: relative;
+    img.main {
+      max-width: 100%;
+      height: 240px;
+      border-radius: 10px;
+      @media screen and (max-width: $md-width) {
+        height: auto;
+      }
+    }
+    &-featured {
+      position: absolute;
+      left: 1rem;
+      top: 1rem;
+      width: 2rem;
+      height: 2rem;
+      .icons {
+        .small {
+          position: absolute;
+          left: 0;
+          img {
+            width: 2rem;
+            height: auto;
+          }
+        }
+        .full {
+          position: absolute;
+          left: 0;
+          img {
+            transition:width 0.25s;
+            -webkit-transition:width .25s;
+            -moz-transition: width 0.25s;
+            width: 0;
+            height: 2rem;
+          }
+        }
+      }
+      &:hover {
+        .icons .full img {
+          width: 8rem;
+        }
+      }
+    }
+  }
+  &__name {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1rem 0.2rem;
+    border-bottom: 0.8px solid rgba(0, 0, 0, .1);
+  }
+  &__info {
+    padding: 1rem 0.2rem;
+    font-size: var(--font-size-regular);
+    &-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1.5rem;
+    }
+    &-block {
+      display: flex;
+      flex-direction: column;
+      &.left {
+        flex: 0 1 65%;
+      }
+      &.right {
+        flex: 1 0 35%;
+      }
+    }
+    &-label {
+      font-weight: 500;
+      margin-bottom: 1rem;
+    }
+    &-value {
+      white-space: nowrap;
+    }
+  }
+  &__price {
+    padding: .7rem .2rem;
+    display: flex;
+    justify-content: space-between;
+    border-top: 0.8px solid rgba(0, 0, 0, .1);
+    border-bottom: 0.8px solid rgba(0, 0, 0, .1);
+    font-size: var(--font-size-regular);
+    &-label {
+      flex: 0 1 65%;
+    }
+    &-value {
+      flex: 1 0 35%;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+  }
+  &__operations {
+    padding: 1.3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__btn--add-inquiry {
+    padding: .9rem 3.3rem;
+    background: unset;
+    outline: unset;
+    border: 1px solid var(--color-secondary);
+    border-radius: 18px;
+    font-size: var(--font-size-regular);
+    transition: all 0.2s;
+    font-family: 'Quicksand', sans-serif;
+    white-space: nowrap;
+    &:hover {
+      color: white;
+      background: var(--color-secondary);
+      cursor: pointer;
+    }
+  }
+  &__btn-icon {
+    background: unset;
+    outline: unset;
+    border: unset;
+    transition: all 0.2s;
+    position: relative;
+    &:before {
+      content: '';
+      position: absolute;
+      border-left: 0.8px  solid rgba(0, 0, 0, .1);
+      left: -.7rem;
+      top: 1rem;
+      bottom: .8rem;
+      @media screen and (max-width: $lg-width) {
+        content: unset;
+      }
+    }
+    &:hover {
+      cursor: pointer;
+      svg {
+        transform: scale(1.08);
+      }
+      &.heart {
+        path {
+          fill: var(--color-secondary);
+        }
+      }
+    }
+  }
+}

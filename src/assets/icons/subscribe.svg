@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="16" viewBox="0 0 21 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="15.609" height="4" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_87981" data-name="Group 87981" transform="translate(-133.217 -1043)">
+    <g id="Rectangle_5388" data-name="Rectangle 5388" transform="translate(133.217 1043)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="1">
+      <rect width="21" height="16" rx="3" stroke="none"/>
+      <rect x="0.5" y="0.5" width="20" height="15" rx="2.5" fill="none" class="sub_icon"/>
+    </g>
+    <g id="Rectangle_5389" data-name="Rectangle 5389" transform="translate(137.217 1046)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="1">
+      <rect width="14" height="4" rx="2" stroke="none"/>
+      <rect x="0.5" y="0.5" width="13" height="3" rx="1.5" fill="none"/>
+    </g>
+    <g id="Repeat_Grid_71" data-name="Repeat Grid 71" transform="translate(136.217 1052)" clip-path="url(#clip-path)">
+      <g transform="translate(-136.328 -1051.5)">
+        <path id="Path_71730" data-name="Path 71730" d="M-21731.672,8251h5.807" transform="translate(21869 -7199)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+      </g>
+      <g transform="translate(-128.328 -1051.5)">
+        <path id="Path_71730-2" data-name="Path 71730" d="M-21731.672,8251h5.807" transform="translate(21869 -7199)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+      </g>
+      <g transform="translate(-136.328 -1048.5)">
+        <path id="Path_71730-3" data-name="Path 71730" d="M-21731.672,8251h5.807" transform="translate(21869 -7199)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+      </g>
+      <g transform="translate(-128.328 -1048.5)">
+        <path id="Path_71730-4" data-name="Path 71730" d="M-21731.672,8251h5.807" transform="translate(21869 -7199)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,85 @@
+@import "src/styles/brakpoints";
+
+.subscribe {
+  min-height: 10rem;
+  background: var(--color-secondary);
+  display: flex;
+  align-items: center;
+  .MuiGrid-item {
+    margin: 2rem 0;
+  }
+  &__content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    &-label {
+      color: #FFf;
+      font-size: 1.8rem;
+      font-weight: 500;
+      letter-spacing: .8px;
+      margin-right: 2rem;
+      font-family: inherit;
+      min-width: 100px;
+    }
+    &-radio-group {
+      .MuiFormGroup-root {
+        display: flex;
+        flex-direction: row;
+        label {
+          margin-right: 3rem;
+          .MuiTypography-root {
+            color: #FFF;
+            font-size: var(--font-size-regular);
+            letter-spacing: .7px;
+            font-family: inherit;
+          }
+        }
+      }
+    }
+  }
+  &__form {
+    display: flex;
+    @media screen and (max-width: $md-width) {
+      justify-content: center;
+    }
+    &-email {
+      background: var(--color-secondary);
+      border: .8px solid var(--color-grey-light);
+      border-radius: 18px;
+      padding: 1rem 1.5rem;
+      color: #FFF;
+      font-family: inherit;
+      width:  21rem;
+      margin-right: 2rem;
+      &:focus {
+        outline: unset;
+      }
+      &::-webkit-input-placeholder {
+        color: #FFF;
+      }
+      &::-moz-placeholder {
+        color: #FFF;
+      }
+      &::-ms-input-placeholder {
+        color: #FFF;
+      }
+    }
+  }
+  &__form-btn {
+    border-radius: 18px;
+    padding: 1rem 1.5rem;
+    background: #FFF;
+    color: var(--color-secondary);
+    border: unset;
+    display: flex;
+    svg {
+      margin-left: .5rem;
+    }
+    .sub_icon {
+      fill: var(--color-secondary);
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

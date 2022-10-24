@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="22" viewBox="0 0 90 22">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_5386" data-name="Rectangle 5386" width="80" height="17" transform="translate(257 514)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_88031" data-name="Group 88031" transform="translate(-1068 -1695)">
+    <g id="Icon_material-star-border" data-name="Icon material-star-border" transform="translate(1068 1695)">
+      <g id="right-side" data-name="Group 87973" transform="translate(-252 -511)">
+        <rect id="Rectangle_5385" data-name="Rectangle 5385" width="90" height="22" rx="11" transform="translate(252 511)" fill="#0a3050" opacity="0.5"/>
+        <g id="Mask_Group_8" data-name="Mask Group 8" clip-path="url(#clip-path)">
+          <text id="Featured" transform="translate(278 526)" fill="#fae46d" font-size="12" font-family="Quicksand-Bold, Quicksand" font-weight="700" letter-spacing="0.05em"><tspan x="0" y="0">Featured</tspan></text>
+        </g>
+      </g>
+      <circle id="Ellipse_7" data-name="Ellipse 7" cx="11" cy="11" r="11" fill="#0a3050" opacity="0.5"/>
+      <path id="Icon_material-star-border-2" data-name="Icon material-star-border" d="M15.535,7.538l-4.506-.389L9.267,3,7.506,7.155,3,7.538,6.422,10.5,5.394,14.908,9.267,12.57l3.873,2.338L12.119,10.5Z" transform="translate(1.751 1.614)" fill="#fae46d"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+:root {
+  --color-primary: #0A3050;
+  --color-secondary: #768A9A;
+  --color-red: #DE1B1B;
+  --color-grey-dark: #CCCCCC;
+  --color-grey-light: #E4E4E4;
+  --color-black: #000;
+  --color-background-white: #F6F9FB;
+
+  --font-size-regular: 1.4rem;
+  --font-size-small: 1.3rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.7px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+
+  @media only screen and (max-width: 68.75em) {
+    font-size: 50%;
+  }
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Quicksand', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}

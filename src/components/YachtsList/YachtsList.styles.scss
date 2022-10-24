@@ -1,0 +1,14 @@
+@import "src/styles/brakpoints";
+section.yachts-list {
+  margin: 5rem 0;
+  .yacht-box {
+    border-right: .8px solid rgba(0, 0, 0, .1);
+    margin-bottom: 2rem;
+    &:last-child {
+      border-right: none;
+    }
+    @media screen and (max-width: $md-width) {
+      border-right: none;
+    }
+  }
+}
