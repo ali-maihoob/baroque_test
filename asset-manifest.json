@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/baroque_test/static/css/main.f64781c0.css",
+    "main.js": "/baroque_test/static/js/main.70a29c1a.js",
+    "static/media/yacht2.png": "/baroque_test/static/media/yacht2.488ef3610dc573065936.png",
+    "static/media/yacht1.png": "/baroque_test/static/media/yacht1.607912d91ada824bddcd.png",
+    "static/media/chateau.jpg": "/baroque_test/static/media/chateau.80daa48f8fe2e35bf5c3.jpg",
+    "static/media/Record.jpg": "/baroque_test/static/media/Record.dab8a872c991132874a1.jpg",
+    "static/media/Pura.jpg": "/baroque_test/static/media/Pura.cef4e755df62c603ea65.jpg",
+    "static/media/bravo.jpg": "/baroque_test/static/media/bravo.0a963ad47cae0f560986.jpg",
+    "static/media/logo2@2x.png": "/baroque_test/static/media/logo2@2x.38eecc115e81b40f2b0e.png",
+    "static/media/heart.svg": "/baroque_test/static/media/heart.0669990d072fdcd8873e20ac65fdfd49.svg",
+    "static/media/subscribe.svg": "/baroque_test/static/media/subscribe.20006db9e0bad0c1425d8884734e9a08.svg",
+    "static/media/pdf.svg": "/baroque_test/static/media/pdf.f8687b7d0e875f59e93684ba3c30e0d0.svg",
+    "static/media/whatsapp.svg": "/baroque_test/static/media/whatsapp.9fdd086ff4862b8770cc497466580169.svg",
+    "static/media/instagram.svg": "/baroque_test/static/media/instagram.4b6b3700e9a666b34cd924697fe524da.svg",
+    "static/media/upload.svg": "/baroque_test/static/media/upload.381e86a4caa8f41dc4f301916b557087.svg",
+    "static/media/arrow-down.svg": "/baroque_test/static/media/arrow-down.6b4a92a90f8b75f3998ae453676e024b.svg",
+    "index.html": "/baroque_test/index.html",
+    "static/media/phone.svg": "/baroque_test/static/media/phone.0fc806375955c54db5250652de30d221.svg",
+    "static/media/mail.svg": "/baroque_test/static/media/mail.a438a16d61f02d9657537b614f31cca5.svg",
+    "static/media/twitter.svg": "/baroque_test/static/media/twitter.6aebde5c6879425816e84126182e45c4.svg",
+    "static/media/linkedin-in.svg": "/baroque_test/static/media/linkedin-in.02be3fde301976e2f78e7c8ff0888603.svg",
+    "static/media/menu-symbol.svg": "/baroque_test/static/media/menu-symbol.b65fd4246cc805e4baec9378c59288fc.svg",
+    "static/media/facebook.svg": "/baroque_test/static/media/facebook.d5c8a17abb3f6adacbc61c189ed8951b.svg",
+    "main.f64781c0.css.map": "/baroque_test/static/css/main.f64781c0.css.map",
+    "main.70a29c1a.js.map": "/baroque_test/static/js/main.70a29c1a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f64781c0.css",
+    "static/js/main.70a29c1a.js"
+  ]
+}
