@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/baroque_test/static/css/main.f64781c0.css",
-    "main.js": "/baroque_test/static/js/main.70a29c1a.js",
+    "main.css": "/baroque_test/static/css/main.b4a85ed7.css",
+    "main.js": "/baroque_test/static/js/main.a2df16fa.js",
     "static/media/yacht2.png": "/baroque_test/static/media/yacht2.488ef3610dc573065936.png",
     "static/media/yacht1.png": "/baroque_test/static/media/yacht1.607912d91ada824bddcd.png",
     "static/media/chateau.jpg": "/baroque_test/static/media/chateau.80daa48f8fe2e35bf5c3.jpg",
@@ -20,14 +20,16 @@
     "static/media/phone.svg": "/baroque_test/static/media/phone.0fc806375955c54db5250652de30d221.svg",
     "static/media/mail.svg": "/baroque_test/static/media/mail.a438a16d61f02d9657537b614f31cca5.svg",
     "static/media/twitter.svg": "/baroque_test/static/media/twitter.6aebde5c6879425816e84126182e45c4.svg",
+    "static/media/checkbox-checked.svg": "/baroque_test/static/media/checkbox-checked.0407732202a3b29c6a4807b5ce0b5070.svg",
     "static/media/linkedin-in.svg": "/baroque_test/static/media/linkedin-in.02be3fde301976e2f78e7c8ff0888603.svg",
     "static/media/menu-symbol.svg": "/baroque_test/static/media/menu-symbol.b65fd4246cc805e4baec9378c59288fc.svg",
     "static/media/facebook.svg": "/baroque_test/static/media/facebook.d5c8a17abb3f6adacbc61c189ed8951b.svg",
-    "main.f64781c0.css.map": "/baroque_test/static/css/main.f64781c0.css.map",
-    "main.70a29c1a.js.map": "/baroque_test/static/js/main.70a29c1a.js.map"
+    "static/media/checkbox.svg": "/baroque_test/static/media/checkbox.9904f412bf21b450650f0fd1bb8ebd54.svg",
+    "main.b4a85ed7.css.map": "/baroque_test/static/css/main.b4a85ed7.css.map",
+    "main.a2df16fa.js.map": "/baroque_test/static/js/main.a2df16fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.f64781c0.css",
-    "static/js/main.70a29c1a.js"
+    "static/css/main.b4a85ed7.css",
+    "static/js/main.a2df16fa.js"
   ]
 }
