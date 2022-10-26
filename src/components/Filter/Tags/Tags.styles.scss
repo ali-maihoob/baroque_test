@@ -1,0 +1,66 @@
+.tags-container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  padding-top: 1rem;
+  .tags {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    overflow: hidden;
+    &.wrap {
+      overflow: inherit;
+      flex-wrap: wrap;
+    }
+    .tag-item {
+      background: var(--color-secondary);
+      font-size: var(--font-size-small);
+      color: #FFF;
+      border-radius: 18px;
+      margin: 0 1rem 1rem;
+      padding: 1rem 1.2rem;
+      display: flex;
+      align-items: center;
+      .value {
+        margin-right: 1rem;
+      }
+      .icon {
+        svg {
+          width: .8rem;
+          height: .8rem;
+        }
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .main-icon {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2rem 1rem 0;
+  }
+  .actions {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    .clear-btn {
+      background: unset;
+      color: var(--color-secondary);
+      text-decoration: underline;
+      font-family: inherit;
+      font-size: var(--font-size-regular);
+      font-weight: 500;
+      border: unset;
+      outline: unset;
+      white-space: nowrap;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

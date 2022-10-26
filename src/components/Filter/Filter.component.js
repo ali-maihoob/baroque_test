@@ -6,6 +6,7 @@ import SelectMaterial from '@mui/material/Select';
 import Select from "../Controls/Select/Select.component";
 import DateRangePicker from "../Controls/DatePicker/DatePicker.component";
 import TwoFields from "../Controls/TwoFields/TwoFields.component";
+import Tags from "./Tags/Tags.component";
 import {
   locationOptions, lookingOptions, yachtNamesOptions, filterByOptions, builderOptions, builtOptions,
   refitOptions, yachtTypeOptions, lengthOptions, currencyOptions, toysOptions, amenitesOptions,
@@ -173,7 +174,7 @@ const Filter = () => {
               </Grid>
             </Grid>
           </div>
-          <Grid container columns={15}>
+          <Grid container columns={15} className='final'>
             <Grid item xs={6} md={4} lg={2}>
               <Select
                 label='Sort'
@@ -200,6 +201,11 @@ const Filter = () => {
                   Search
                 </button>
               </div>
+            </Grid>
+            <Grid item xs={15} md={15} lg={9}>
+              <Tags
+                isOpen={collapse}
+              />
             </Grid>
           </Grid>
         </div>
