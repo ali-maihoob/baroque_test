@@ -1,0 +1,79 @@
+.filters {
+  .collapsed-container {
+    max-height: 0;
+    transition: max-height 1s ease-out;
+    overflow: hidden;
+    &.collapsed {
+      max-height: 500rem;
+      transition: max-height 1s ease-in;
+    }
+  }
+  .more-filters {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    button {
+      border: 0.8px solid rgba(0, 0, 0, 0.1);
+      border-radius: 18px;
+      padding: 8.5px;
+      justify-content: space-around;
+      color: #000;
+      margin-top: 2.3rem;
+      font-family: inherit;
+      font-weight: 400;
+      text-transform: capitalize;
+      font-size: 1.2rem;
+      height: 32px;
+      background: #FFF;
+      max-width: 12rem;
+      white-space: nowrap;
+      &:hover {
+        cursor: pointer;
+      }
+      span.icon {
+        margin-left: 1rem;
+      }
+    }
+  }
+  .search {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .search-btn {
+      border: 0.8px solid rgba(0, 0, 0, 0.1);
+      border-radius: 18px;
+      padding: 8.5px;
+      justify-content: space-around;
+      color: #FFF;
+      margin-top: 2.3rem;
+      font-family: inherit;
+      font-weight: 400;
+      text-transform: capitalize;
+      font-size: 1.2rem;
+      height: 32px;
+      background: var(--color-primary);
+      max-width: 10rem;
+      white-space: nowrap;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  .MuiGrid-container {
+    margin-bottom: .5rem;
+  }
+  .featured-checkbox {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 0.5rem;
+    span {
+      font-family: inherit;
+      font-size: var(--font-size-regular);
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.two-fields {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  label {
+    font-size: var(--font-size-small);
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  button {
+    border: .8px solid var(--color-grey-light);
+    border-radius: 18px;
+    padding: 8.5px;
+    justify-content: space-around;
+    color: #000;
+  }
+  &__popover-content {
+    padding: 2rem 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 3px 6px 14px #00000019;
+    border-radius: 10px;
+  }
+  &__form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+    label {
+      margin-bottom: .7rem;
+      font-size: var(--font-size-regular);
+    }
+    input {
+      padding: 0.4rem 0.7rem;
+      max-width: 8rem;
+      border: 0.8px solid rgba(0, 0, 0, 0.1);
+      border-radius: 18px;
+      font-size: var(--font-size-regular);
+      &:focus-visible {
+        outline: none;
+        border: 0.8px solid rgba(0, 0, 0, 0.3);
+      }
+    }
+  }
+}

@@ -4,6 +4,19 @@
   display: flex;
   justify-content: space-between;
   padding: 2.7rem 10.4rem;
+  transition: all 250ms ease-in-out;
+  &.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+    background: #FFF;
+    animation: 1s ease-in-out 0s normal none 1 running fadeInDown;
+    transition: all 100ms ease-in-out;
+  }
   @media screen and (max-width: $lg-width) {
     padding: 2.7rem 10.4rem;
   }

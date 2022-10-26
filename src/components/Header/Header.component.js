@@ -8,8 +8,20 @@ import {ReactComponent as ArrowDown} from '../../assets/icons/arrow-down.svg';
 import Sidebar from "../Sidebar/Sidebar.component";
 
 const Header = () => {
+  const stickyHeader = React.useRef()
+  React.useLayoutEffect(() => {
+    const mainHeader = document.getElementById('mainHeader')
+    const fixedHeader = () => {
+      if (window.pageYOffset > 200) {
+        mainHeader.classList.add('sticky')
+      } else {
+        mainHeader.classList.remove('sticky')
+      }
+    }
+    window.addEventListener('scroll', fixedHeader)
+  }, [])
   return (
-    <header className='header'>
+    <header className='header' id="mainHeader" ref={stickyHeader}>
       <Grid container>
         <Grid item md={8} sm={6} xs={12}>
           <div className='left-nav'>

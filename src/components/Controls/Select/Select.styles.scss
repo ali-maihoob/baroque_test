@@ -1,0 +1,11 @@
+.select-group {
+  .MuiOutlinedInput-notchedOutline {
+    border: 0.8px solid var(--color-grey-light) !important;
+    border-radius: 18px !important;
+  }
+  label {
+    font-size: var(--font-size-small);
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+}

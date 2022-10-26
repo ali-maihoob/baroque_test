@@ -3,7 +3,7 @@ import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import './YachtsList.styles.scss';
 import Yacht from "./Yaht/Yacht.component";
-import {Yachts} from "../data/data";
+import {Yachts} from "../../data/data";
 
 const sliceIntoChunks = (arr, chunkSize) => {
   const res = [];
